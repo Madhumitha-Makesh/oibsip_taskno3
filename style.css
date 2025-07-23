@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #eee;
+}
+
+.container {
+    max-width: 600px;
+    background: #1c1c1c;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+    text-align: center;
+}
+
+h1 {
+    color: #00d2ff;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #00d2ff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover {
+    background: #009ec3;
+}
+
+.section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+h2 {
+    color: #66fcf1;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.date {
+    color: #888;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.deleteBtn {
+    background: transparent;
+    border: none;
+    color: #f55;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    float: right;
+}
+
+.deleteBtn:hover {
+    color: #ff0000;
+}
